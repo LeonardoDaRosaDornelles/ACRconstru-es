@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha página</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<header>
+		<h1>ACRcontruções</h1>
+		<nav>
+			<ul>
+				<li id="desce"><a href="#">Sobre</a></li>
+				<li><a href="https://www.instagram.com/fercommferragem/"  target="_blank">Serviços</a></li>
+				<li><a href="https://wa.me/5551989722201?text=Olá,%20tudo%20bem%3F" target="_blank">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="imagens">
+			<h2>Trabalhos realizados</h2>
+			<div class="imagem">
+				<img src="imagens/cozinha.jpg" alt="Imagem 1">
+			</div>
+			<div class="imagem">
+				<img src="imagens/banheiro.jpg" alt="Imagem 2">
+			</div>
+			<div class="imagem">
+				<img src="imagens/sala.jpg" alt="Imagem 3">
+			</div>
+		</section>
+
+		<section class="sobre">
+            <h2>Sobre nós</h2>
+            <p>A nossa empresa de obras é especializada em oferecer soluções de construção e reforma para clientes em toda a região `escolher região`. Com anos de experiência no setor de construção civil, nossa equipe é formada por profissionais altamente qualificados e capacitados para realizar os mais diversos tipos de projetos.
+
+            Nosso objetivo é atender as necessidades e expectativas de nossos clientes, fornecendo serviços de alta qualidade e um atendimento personalizado. Trabalhamos com materiais de primeira linha e utilizamos as técnicas mais modernas do mercado, garantindo a durabilidade e a segurança de todas as nossas obras.
+            
+            Se você está procurando por uma empresa de obras comprometida com a qualidade e a satisfação do cliente, entre em contato conosco e solicite um orçamento. Estamos sempre prontos para atender suas demandas e superar suas expectativas.</p>
+        </section>
+	</main>
+
+	<footer>
+		<p>Todos os direitos reservados &copy; ACRcontruções 2023</p>
+        <div id="whatsapp">
+            <a href="número de celular">
+                Entre em contato via whatsApp
+                <img src="imagens/whatsapp-icone-7.png" alt="icone do whatsapp">     
+            </a>
+        </div>
+	</footer>
+	<script>
+		const botao = document.querySelector('#desce')
+
+
+		botao.addEventListener('click', () => {
+			window.scroll({top:1400 , behavior: "smooth"})
+		})
+
+	</script>
+</body>
+</html>
