@@ -13,7 +13,7 @@ body{
 /* Cabeçalho */
 header {
     max-width: 100vw;
-    background-color:#8c614c ;
+    background-color:#b55239 ;
     color: #fff;
     margin-bottom: 15px;
     
@@ -21,10 +21,18 @@ header {
   
   /* Título do cabeçalho */
 h1 {
+    position: relative;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding-top:10px;
     padding-left: 15px;
     text-shadow: 3px 2px 2px black;
+}
+
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 3px;
+    right: 3vw;
 }
 
 h2{
@@ -64,11 +72,9 @@ nav a {
     cursor: url('imagens/colher-de-pedreiro.png'), auto;
 }
 
-/* Corpo */
-
 /* Imagens */
 #imagens{
-    background-color: #b55239;
+    background-color: #ff4d00e1;
 }
 
 .imagem {
@@ -96,7 +102,7 @@ nav a {
 
 /* Rodapé */
 footer {
-    background-color: #8c614c;
+    background-color: #b55239;
     color: #fff;
     padding: 10px;
     margin-top: 30px;
@@ -141,6 +147,13 @@ footer {
     /* Título do cabeçalho */
     h1 {
         font-size: 2rem;
+    }
+
+    .logo{
+        width: 120px;
+        position: absolute;
+        top: 3px;
+        right: 3vw;
     }
 
     /* Links do menu */
