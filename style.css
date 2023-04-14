@@ -13,7 +13,7 @@ body{
 /* Cabeçalho */
 header {
     max-width: 100vw;
-    background-color: #8c614c;
+    background-color:#8c614c ;
     color: #fff;
     margin-bottom: 15px;
     
@@ -70,8 +70,6 @@ nav a {
 #imagens{
     background-color: #b55239;
 }
-
-
 
 .imagem {
     margin-bottom: 20px;
