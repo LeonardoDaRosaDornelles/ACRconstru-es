@@ -29,9 +29,9 @@ h1 {
 }
 
 .logo{
-    width: 100px;
+    width: 50px;
     position: absolute;
-    top: 3px;
+    top: 4vh;
     right: 3vw;
 }
 
